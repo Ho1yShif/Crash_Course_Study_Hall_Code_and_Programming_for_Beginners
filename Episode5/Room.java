@@ -6,14 +6,14 @@ public class Room {
 	// Goal: Find the area of a room in square feet
 
 	System.out.println("What is the length of your room in feet?");
-	Scanner scan = new Scanner(System.in);
-	int roomLength = scan.nextInt();
+	Scanner scnr = new Scanner(System.in);
+	int roomLength = scnr.nextInt();
 
 	System.out.println("What is the width of your room in feet?");
-	double roomWidth = scan.nextDouble();
+	double roomWidth = scnr.nextDouble();
 
 	double roomArea = roomLength * roomWidth;
-	System.out.println("The area of your room is " + roomArea + " square feet");
-	scan.close();
+	System.out.println("The area of your room is " + roomArea + " square feet.");
+	scnr.close();
 	} 
 }

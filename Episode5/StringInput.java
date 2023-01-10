@@ -5,17 +5,17 @@ public class StringInput {
 	// Name
 	public static void main(String[] args) {
 	System.out.println("Enter your first name ");
-	Scanner scan = new Scanner(System.in);
-	String scanName = scan.next();
-	System.out.println(scanName);
+	Scanner scnr = new Scanner(System.in);
+	String firstName = scnr.next();
+	System.out.println(firstName);
 
 	// Dummy nextline
-	scan.nextLine();
-	
+	scnr.nextLine();
+
 	// Sentence
 	System.out.println("Enter a full sentence");
-	String scanLine = scan.nextLine();
+	String scanLine = scnr.nextLine();
 	System.out.println(scanLine);
-	scan.close();
+	scnr.close();
 	} 
 }
