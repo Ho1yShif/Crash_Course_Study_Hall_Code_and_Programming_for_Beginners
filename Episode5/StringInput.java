@@ -2,20 +2,20 @@ package Episode5;
 import java.util.Scanner;
 
 public class StringInput {
-	// Name
+	// Neighborhood
 	public static void main(String[] args) {
-	System.out.println("Enter your first name ");
+	System.out.println("Enter your NYC neighborhood.");
 	Scanner scnr = new Scanner(System.in);
-	String firstName = scnr.next();
-	System.out.println(firstName);
+	String aptNeighborhood = scnr.next();
+	System.out.println(aptNeighborhood);
 
 	// Dummy nextline
 	scnr.nextLine();
 
-	// Sentence
-	System.out.println("Enter a full sentence");
-	String scanLine = scnr.nextLine();
-	System.out.println(scanLine);
+	// Address
+	System.out.println("Enter your address.");
+	String aptAddress = scnr.nextLine();
+	System.out.println(aptAddress);
 	scnr.close();
 	} 
 }
