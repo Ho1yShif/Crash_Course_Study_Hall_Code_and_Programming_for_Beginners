@@ -9,7 +9,7 @@ public class StringInput {
 	String aptNeighborhood = scnr.next();
 	System.out.println(aptNeighborhood);
 
-	// Dummy nextline
+	// Dummy nextLine
 	scnr.nextLine();
 
 	// Address
