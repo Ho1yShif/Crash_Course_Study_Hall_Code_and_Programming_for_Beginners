@@ -2,7 +2,7 @@ package Episode10;
 
 public class BrokenLogicError {
 	public static void processOrder(Order order) {
-		double shippingCost = 10;
+		double shippingCost = 10.0;
 		if (order.status == "shipped") {
 			order.totalCost = order.ProductCost + shippingCost;
 		} else if (order.status == "cancelled") {
