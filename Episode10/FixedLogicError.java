@@ -8,7 +8,7 @@ public class FixedLogicError {
 		} else if (order.status == "cancelled") {
 			order.totalCost = 0;
 		} else if (order.status == "returned") {
-			order.totalCost(order.getTotalCost() - shippingCost);
+			order.totalCost = order.totalCost - shippingCost;
 		} else {
 			System.out.println("Other status found.");
 		}
