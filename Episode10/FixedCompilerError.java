@@ -1,7 +1,7 @@
 package Episode10;
 
-public class CompilerError {
+public class FixedCompilerError {
 	public static void main(String[] args) {
-		System.out.print("Hello!")
+		System.out.print("Hello!");
 	}
 }
