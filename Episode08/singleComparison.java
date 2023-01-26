@@ -1,6 +1,4 @@
-package Episode8;
-
-import java.util.Scanner;
+package Episode08;
 
 public class singleComparison {
 	public static void main(String[] args) {

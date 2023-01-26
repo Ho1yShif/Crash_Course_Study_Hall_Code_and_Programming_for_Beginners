@@ -1,4 +1,4 @@
-package Episode8;
+package Episode08;
 
 import java.util.Scanner;
 

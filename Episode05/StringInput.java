@@ -1,4 +1,4 @@
-package Episode5;
+package Episode05;
 import java.util.Scanner;
 
 public class StringInput {

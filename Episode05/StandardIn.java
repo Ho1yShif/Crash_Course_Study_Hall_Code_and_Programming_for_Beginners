@@ -1,4 +1,4 @@
-package Episode5;
+package Episode05;
 // Got this code from chatGPT!
 
 import java.io.IOException;

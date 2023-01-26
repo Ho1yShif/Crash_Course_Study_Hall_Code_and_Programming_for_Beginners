@@ -1,4 +1,4 @@
-package Episode5;
+package Episode05;
 public class Conversion {
 	public static void main(String[] args) {
 
