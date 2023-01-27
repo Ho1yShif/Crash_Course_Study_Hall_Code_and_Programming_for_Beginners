@@ -1,6 +1,6 @@
 package Episode10;
 
-public class FixingLogicError {
+public class FixedLogicError {
 	public static void processOrder(int productCost, String orderStatus) {
 		// Added functionality for return orders as well as a catch-all else statement
 		double shippingCost = 10.50;
