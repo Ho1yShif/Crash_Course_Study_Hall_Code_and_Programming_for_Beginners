@@ -8,8 +8,8 @@ public class salad_pseudo {
 		int croutons = 1;
 		System.out.println("You have a salad topped with " + topping);
 	}
-    
-    public static void main(String[] args) {
+	
+	public static void main(String[] args) {
 		makeChickenSalad("chicken");
 	}
 }
