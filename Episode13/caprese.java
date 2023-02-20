@@ -11,7 +11,7 @@ public class caprese {
 		System.out.println("You have a " + sandwich_type + " sandwich");
 		return sandwich;
 	}
-	
+
 	public static salad makeSalad(String topping) {
 		int lettuce = 1;
 		int tomatoes = 1;
@@ -23,7 +23,7 @@ public class caprese {
 
 	public static void makeCapreseSandwichWithChickenSalad {
 		makeSandwich("caprese");
-		makeChickenSalad("chicken");
+		makeSalad("chicken");
 	}
 
 	public static void main(String[] args) {
