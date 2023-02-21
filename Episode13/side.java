@@ -18,4 +18,8 @@ public class side {
     
         System.out.println("You have a " + main_sandwich_type + " sandwich and a " side_sandwich_type + " side sandwich.");
       }
+    
+    public static void main(String args[]) { 
+        makeSandwich("blt", "chicken"); // our main and side sandwich orders
+  } 
 }
