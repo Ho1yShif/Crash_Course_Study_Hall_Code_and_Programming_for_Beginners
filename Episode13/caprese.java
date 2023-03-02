@@ -21,12 +21,12 @@ public class caprese {
 		return salad;
 	}
 
-	public static void makeCapreseSandwichWithChickenSalad {
-		makeSandwich("caprese");
-		makeSalad("chicken");
+	public static void makeOrder(String sandwich_type, String salad_type) {
+		makeSandwich(sandwich_type);
+		makeSalad(salad_type);
 	}
 
 	public static void main(String[] args) {
-		makeCapreseSandwichWithChickenSalad();
+		makeCapreseSandwichWithChickenSalad("caprese", "chicken");
 	}
 }
