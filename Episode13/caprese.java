@@ -27,6 +27,6 @@ public class caprese {
 	}
 
 	public static void main(String[] args) {
-		makeCapreseSandwichWithChickenSalad("caprese", "chicken");
+		makeOrder("caprese", "chicken");
 	}
 }
