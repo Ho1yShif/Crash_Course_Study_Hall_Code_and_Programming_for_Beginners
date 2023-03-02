@@ -1,7 +1,7 @@
 package Episode13;
 
 public class salad_pseudo {
-	public static salad makeChickenSalad(String topping) {
+	public static salad makeSalad(String topping) {
 		int lettuce = 1;
 		int tomatoes = 1;
 		int onions = 1;
@@ -11,6 +11,6 @@ public class salad_pseudo {
 	}
 
 	public static void main(String[] args) {
-		makeChickenSalad("chicken");
+		makeSalad("chicken");
 	}
 }
