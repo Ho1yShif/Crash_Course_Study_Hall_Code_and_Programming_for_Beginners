@@ -6,7 +6,7 @@ public class extreme {
 
 	// OR operator
 	if (reader_temp  >= 95.0 || reader_temp  <= 32.0) {
-		System.out.println("The weather is extreme.");
+		System.out.println("Extreme weather warning!");
 	}
 }
 }
