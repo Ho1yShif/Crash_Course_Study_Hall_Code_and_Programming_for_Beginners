@@ -1,4 +1,4 @@
-package Episode08;
+package Episode08.Draft01;
 
 public class singleComparison {
 	public static void main(String[] args) {
