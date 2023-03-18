@@ -2,7 +2,7 @@ package Episode08.Draft02;
 
 public class weather {
 	public static void main(String[] args) {
-	Double reader_temp = 70.0; // degrees Celsius
+	Double reader_temp = 70.0; // degrees Fahrenheit
 
 	// Conditional statements
 	if (reader_temp == 70.0) {
