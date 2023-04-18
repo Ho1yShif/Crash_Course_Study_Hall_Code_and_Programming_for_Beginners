@@ -7,5 +7,5 @@ public class efficient_cereal {
 		String actualCereal = boxOfCereal;
 		System.out.println(boxOfCereal == actualCereal);
 		System.out.println(boxOfCereal.equals(actualCereal));
-}
+	}
 }
