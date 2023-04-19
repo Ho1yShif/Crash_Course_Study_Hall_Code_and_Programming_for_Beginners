@@ -1,6 +1,6 @@
 package Episode20;
 
-public class primitives_copied {
+public class primitivesCopied {
 
 	public static void main(String[] args) {
 		int avatarElements = 4;

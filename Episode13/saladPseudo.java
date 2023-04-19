@@ -1,6 +1,6 @@
 package Episode13;
 
-public class salad_pseudo {
+public class saladPseudo {
 	public static salad makeSalad(String topping) {
 		int lettuce = 1;
 		int tomatoes = 1;

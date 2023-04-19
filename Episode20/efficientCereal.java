@@ -1,6 +1,6 @@
 package Episode20;
 
-public class efficient_cereal {
+public class efficientCereal {
 	
 	public static void main(String[] args) {
 		String boxOfCereal = "cereal";
