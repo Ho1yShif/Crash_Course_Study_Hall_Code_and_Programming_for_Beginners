@@ -11,7 +11,7 @@ public class scores {
     public static void main(String[] args) {
         try {
             // Open the file using FileInputStream
-            FileInputStream inputStream = new FileInputStream("/Users/shifra.isaacs/Documents/GH/CC_SH_PoP/Episode22/Files/student_scores.txt");
+            FileInputStream inputStream = new FileInputStream("student_scores.txt");
 
             // Create a Scanner to read the file
             Scanner scanner = new Scanner(inputStream);
