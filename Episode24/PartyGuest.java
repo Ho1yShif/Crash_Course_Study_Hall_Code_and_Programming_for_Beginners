@@ -20,4 +20,13 @@ public class PartyGuest {
 		System.out.println("Favorite Drink: " + zack.favoriteDrink);
 		System.out.println("Allergic to peanuts: " + zack.allergicToPeanuts);
 	}
+
+	// Default constructor code
+	// public PartyGuest() {
+	// 	// No arguments taken, but we can set default values for the instance variables
+	// 	this.name = "";
+	// 	this.age = 0;
+	// 	this.favoriteDrink = "";
+	// 	this.allergicToPeanuts = false;
+	// }
 }
