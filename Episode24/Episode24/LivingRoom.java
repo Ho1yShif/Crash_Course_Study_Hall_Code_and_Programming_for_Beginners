@@ -1,3 +1,4 @@
+package Episode24;
 public class LivingRoom {
 	private String paintColor;
 	private String sofaStyle;
