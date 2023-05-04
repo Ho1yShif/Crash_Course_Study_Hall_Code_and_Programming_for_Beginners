@@ -1,5 +1,4 @@
 package Episode26;
-//package Episode26;
 
 public class PrivatePartyGuest {
 	private String name;
