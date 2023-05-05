@@ -1,8 +1,8 @@
 package Episode24;
 public class LivingRoom {
-	private String paintColor;
-	private String sofaStyle;
-	private int numberOfChairs;
+	public String paintColor;
+	public String sofaStyle;
+	public int numberOfChairs;
 	
 	public LivingRoom(String paintColor, String sofaStyle, int numberOfChairs) {
 		this.paintColor = paintColor;
