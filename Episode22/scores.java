@@ -3,7 +3,7 @@ package Episode22;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.io.FileWriter;
+import java.io.FileOutputStream;
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -54,7 +54,8 @@ public class scores {
 			}
 
 			// Write the output CSV file
-			PrintWriter writer = new PrintWriter(new FileWriter("student_averages.csv"));
+			PrintWriter writer = new PrintWriter(
+										new FileOutputStream("student_averages.csv"));
 			// Write the header of the CSV file
 			writer.println("Student Name,Average Test Score");
 

@@ -1,6 +1,6 @@
 package Episode22;
 
-import java.io.FileWriter;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -22,7 +22,7 @@ public class students {
 		// Create a PrintWriter object to write to the CSV file
 		PrintWriter writer = null;
 		try {
-			writer = new PrintWriter(new FileWriter("student_names.csv"));
+			writer = new PrintWriter(new FileOutputStream("student_names.csv"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
