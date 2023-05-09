@@ -16,12 +16,12 @@ public class SecurityGuard {
 	}
 	
 	public boolean grantAccess(String id) {
-		// Guard clause ensures that the ID is valid format
+		// Guard clause ensures that the ID has a valid format
 		if (!isValidIdFormat(id)) {
 			return false;
 		}
 
-		// Guard clause ensures that the ID in list of valid IDs
+		// Guard clause ensures that the ID is in a list of valid IDs
 		if (!this.ValidIDs.contains(id)) {
 			return false;
 		}
