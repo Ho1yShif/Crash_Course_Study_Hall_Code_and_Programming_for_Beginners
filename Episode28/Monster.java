@@ -23,15 +23,15 @@ public class Monster {
 		return weapon;
 	}
 
+	public void takeDamage(int damage) {
+		this.currentHealth -= damage;
+		System.out.println(this.name + " takes " + damage + " damage. Current health: " + this.currentHealth);
+	}
+	
 	public void attack(Monster other) {
 		int damage = this.weapon.getMaxDamage();
 		other.takeDamage(damage);
 		System.out.println(this.name + " attacks " + other.getName() + " with " + this.weapon.getName() + " for " + damage + " damage.");
-	}
-
-	public void takeDamage(int damage) {
-		this.currentHealth -= damage;
-		System.out.println(this.name + " takes " + damage + " damage. Current health: " + this.currentHealth);
 	}
 }
 
