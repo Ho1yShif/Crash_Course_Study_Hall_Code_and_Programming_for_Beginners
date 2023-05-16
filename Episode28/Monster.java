@@ -1,5 +1,7 @@
 package Episode28;
 
+import Episode28.Weapon;
+
 public class Monster {
 	private String name;
 	private int currentHealth;
@@ -27,7 +29,7 @@ public class Monster {
 		this.currentHealth -= damage;
 		System.out.println(this.name + " takes " + damage + " damage. Current health: " + this.currentHealth);
 	}
-	
+
 	public void attack(Monster other) {
 		int damage = this.weapon.getMaxDamage();
 		other.takeDamage(damage);

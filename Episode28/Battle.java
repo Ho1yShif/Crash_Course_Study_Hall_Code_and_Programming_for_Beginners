@@ -1,5 +1,7 @@
 package Episode28;
 
+import Episode28.Weapon;
+import Episode28.Monster;
 import java.util.Random;
 
 public class Battle {
