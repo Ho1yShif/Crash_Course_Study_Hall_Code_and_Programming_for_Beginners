@@ -2,21 +2,21 @@ package Episode28;
 
 import Episode28.Weapon;
 
-public class MultipleMonster {
+public class ChainedMonster {
 	private String name;
 	private int currentHealth;
 	private Weapon weapon;
 
-	public MultipleMonster(String name, int currentHealth, Weapon weapon) {
+	public ChainedMonster(String name, int currentHealth, Weapon weapon) {
 		this.name = name;
 		this.currentHealth = currentHealth;
 		this.weapon = weapon;
 	}
 
-	public MultipleMonster(String name, Weapon weapon) {
-        // Constructor chaining to reuse the three-parameter constructor
+	public ChainedMonster(String name, Weapon weapon) {
+		// Constructor chaining to reuse the three-parameter constructor
 		this(name, 100, weapon);
-    }
+	}
 
 	public String getName() {
 		return name;
