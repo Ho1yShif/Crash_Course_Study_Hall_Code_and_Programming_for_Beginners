@@ -36,4 +36,3 @@ public class Monster {
 		System.out.println(this.name + " attacks " + other.getName() + " with " + this.weapon.getName() + " for " + damage + " damage.");
 	}
 }
-
