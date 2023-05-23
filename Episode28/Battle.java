@@ -17,7 +17,7 @@ public class Battle {
 		// Loop to control the rounds of the battle
 		Random random = new Random();
 		int round = 1;
-		while (monster1.getCurrentHealth() > 0 && monster2.getCurrentHealth() > 0) {
+		while (monster1.gethealth() > 0 && monster2.gethealth() > 0) {
 			System.out.println("Round " + round + " begins!");
 
 			// Determine which monster attacks first randomly
@@ -28,10 +28,10 @@ public class Battle {
 			int damage = attacker.attack();
 			defender.takeDamage(damage);
 			System.out.println(attacker.getName() + " attacks " + defender.getName() + " for " + damage + " damage.");
-			System.out.println(defender.getName() + " has " + defender.getCurrentHealth() + " health remaining.");
+			System.out.println(defender.getName() + " has " + defender.gethealth() + " health remaining.");
 
 			// Check if the battle is over
-			if (monster1.getCurrentHealth() <= 0 || monster2.getCurrentHealth() <= 0) {
+			if (monster1.gethealth() <= 0 || monster2.gethealth() <= 0) {
 				break;
 			}
 
@@ -39,10 +39,10 @@ public class Battle {
 			damage = defender.attack();
 			attacker.takeDamage(damage);
 			System.out.println(defender.getName() + " attacks " + attacker.getName() + " for " + damage + " damage.");
-			System.out.println(attacker.getName() + " has " + attacker.getCurrentHealth() + " health remaining.");
+			System.out.println(attacker.getName() + " has " + attacker.gethealth() + " health remaining.");
 
 			// Check if the battle is over
-			if (monster1.getCurrentHealth() <= 0 || monster2.getCurrentHealth() <= 0) {
+			if (monster1.gethealth() <= 0 || monster2.gethealth() <= 0) {
 				break;
 			}
 
@@ -50,7 +50,7 @@ public class Battle {
 		}
 
 		// Determine the winner
-		if (monster1.getCurrentHealth() > 0) {
+		if (monster1.gethealth() > 0) {
 			System.out.println(monster1.getName() + " wins the battle!");
 		} else {
 			System.out.println(monster2.getName() + " wins the battle!");

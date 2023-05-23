@@ -4,12 +4,12 @@ import Episode28.Weapon;
 
 public class ChainedMonster {
 	private String name;
-	private int currentHealth;
+	private int health;
 	private Weapon weapon;
 
-	public ChainedMonster(String name, int currentHealth, Weapon weapon) {
+	public ChainedMonster(String name, int health, Weapon weapon) {
 		this.name = name;
-		this.currentHealth = currentHealth;
+		this.health = health;
 		this.weapon = weapon;
 	}
 
@@ -22,8 +22,8 @@ public class ChainedMonster {
 		return name;
 	}
 
-	public int getCurrentHealth() {
-		return currentHealth;
+	public int gethealth() {
+		return health;
 	}
 
 	public Weapon getWeapon() {
@@ -31,8 +31,8 @@ public class ChainedMonster {
 	}
 
 	public void takeDamage(int damage) {
-		this.currentHealth -= damage;
-		System.out.println(this.name + " takes " + damage + " damage. Current health: " + this.currentHealth);
+		this.health -= damage;
+		System.out.println(this.name + " takes " + damage + " damage. Current health: " + this.health);
 	}
 
 	public void attack(Monster other) {
