@@ -1,7 +1,5 @@
 package Episode28;
 
-import Episode28.Weapon;
-import Episode28.Monster;
 import java.util.Random;
 
 public class Battle {
@@ -21,8 +19,16 @@ public class Battle {
 			System.out.println("Round " + round + " begins!");
 
 			// Determine which monster attacks first randomly
-			Monster attacker = random.nextBoolean() ? monster1 : monster2;
-			Monster defender = attacker == monster1 ? monster2 : monster1;
+			Monster attacker;
+			Monster defender;
+
+			if (random.nextBoolean()) {
+				attacker = monster1;
+				defender = monster2;
+			} else {
+				attacker = monster2;
+				defender = monster1;
+}
 
 			// Attacker attacks defender
 			int damage = attacker.attack();
