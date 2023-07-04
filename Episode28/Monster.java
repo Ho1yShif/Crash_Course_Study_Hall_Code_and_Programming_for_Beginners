@@ -1,7 +1,5 @@
 package Episode28;
 
-import Episode28.Weapon;
-
 public class Monster {
 	private String name;
 	private int health;
@@ -33,6 +31,6 @@ public class Monster {
 	public void attack(Monster other) {
 		int damage = this.weapon.getMaxDamage();
 		other.takeDamage(damage);
-		System.out.println(this.name + " attacks " + other.getName() + " with " + this.weapon.getName() + " for " + damage + " damage.");
+		System.out.printf("%s attacks %s with %s for %d damage.\n", this.name, other.getName(),  this.weapon.getName(),  damage);
 	}
 }
