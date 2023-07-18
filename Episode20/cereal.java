@@ -3,21 +3,21 @@ package Episode20;
 public class cereal {
 	
 	public static void main(String[] args) {
-		String boxOfCereal = new String("cereal");
-		String actualCereal = new String("cereal");
-		System.out.println(boxOfCereal == actualCereal);
-		System.out.println(boxOfCereal.equals(actualCereal));
+		String FrootLoops = new String("cereal");
+		String CocoaPuffs = new String("cereal");
+		System.out.println(FrootLoops == CocoaPuffs);
+		System.out.println(FrootLoops.equals(CocoaPuffs));
 
-		if (boxOfCereal == actualCereal) {
-			System.out.println("boxOfCereal and actualCereal point to the same memory location");
+		if (FrootLoops == CocoaPuffs) {
+			System.out.println("FrootLoops and CocoaPuffs point to the same memory location");
 		} else {
-			System.out.println("boxOfCereal and actualCereal point to different memory locations");
+			System.out.println("FrootLoops and CocoaPuffs point to different memory locations");
 		}
 
-		if (boxOfCereal.equals(actualCereal)) {
-			System.out.println("boxOfCereal and actualCereal have the same content");
+		if (FrootLoops.equals(CocoaPuffs)) {
+			System.out.println("FrootLoops and CocoaPuffs have the same content");
 		} else {
-			System.out.println("boxOfCereal and actualCereal have different content");
+			System.out.println("FrootLoops and CocoaPuffs have different content");
 		}
 }
 }
