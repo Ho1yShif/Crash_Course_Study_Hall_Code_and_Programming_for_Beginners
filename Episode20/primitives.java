@@ -4,7 +4,7 @@ public class primitives {
 	
 	public static void main(String[] args) {
 		int avatarElements = 4;
-		int boxesOfCTS = 4;
-		System.out.println(avatarElements == boxesOfCTS);
+		int cinnamonToastCrunch = 4;
+		System.out.println(avatarElements == cinnamonToastCrunch);
 	}
 }
