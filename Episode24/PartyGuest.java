@@ -14,19 +14,19 @@ public class PartyGuest {
 	}
 
 	public static void main(String[] args) {
-		PartyGuest zack = new PartyGuest("Zack", 25, "Ginger Ale", false);
-		System.out.println("Name: " + zack.name);
-		System.out.println("Age: " + zack.age);
-		System.out.println("Favorite Drink: " + zack.favoriteDrink);
-		System.out.println("Allergic to peanuts: " + zack.allergicToPeanuts);
+		PartyGuest guest = new PartyGuest("Zack", 25, "Ginger Ale", false);
+		System.out.println("Name: " + guest.name);
+		System.out.println("Age: " + guest.age);
+		System.out.println("Favorite Drink: " + guest.favoriteDrink);
+		System.out.println("Allergic to peanuts: " + guest.allergicToPeanuts);
 	}
 
 	// Default constructor code
-	// public PartyGuest() {
-	// 	// No arguments taken, but we can set default values for the instance variables
-	// 	this.name = "";
-	// 	this.age = 0;
-	// 	this.favoriteDrink = "";
-	// 	this.allergicToPeanuts = false;
-	// }
+	public PartyGuest() {
+		// No arguments taken, but we can set default values for the instance variables
+		this.name = "";
+		this.age = 0;
+		this.favoriteDrink = "";
+		this.allergicToPeanuts = false;
+	}
 }
