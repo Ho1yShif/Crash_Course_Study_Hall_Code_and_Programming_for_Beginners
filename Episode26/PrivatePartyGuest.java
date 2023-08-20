@@ -43,9 +43,9 @@ public class PrivatePartyGuest {
 	}
 
 	public static void main(String[] args) {
-		PrivatePartyGuest zack = new PrivatePartyGuest();
+		PrivatePartyGuest guest = new PrivatePartyGuest();
 		// Use setter and getter instead of constructor with arguments
-		zack.setFavoriteDrink("Ginger Ale");
-		System.out.println(zack.getFavoriteDrink());
+		guest.setFavoriteDrink("Ginger Ale");
+		System.out.println(guest.getFavoriteDrink());
 	}
 }
