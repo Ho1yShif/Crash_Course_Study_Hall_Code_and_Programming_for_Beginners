@@ -9,7 +9,7 @@ public class NonGuardClause {
     }
 
     public void addToIDList(String id) {
-        // Guard clause ensures that the ID has a valid format
+        // Split the guard clause into an if-else statement
         if isValidIdFormat(id) {
             System.out.println("ID format validated. Proceeding to next step");
             return;
