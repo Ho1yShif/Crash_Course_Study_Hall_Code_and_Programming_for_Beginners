@@ -9,7 +9,7 @@ public class NonGuardClause {
     }
 
     public void addToIDList(String id) {
-        // Split the guard clause into an if-else statement
+        // Split the first guard clause into an if-else statement
         if isValidIdFormat(id) {
             System.out.println("ID format validated. Proceeding to next step");
             return;
@@ -18,8 +18,12 @@ public class NonGuardClause {
             return;
         }
 
-        // Guard clause ensures that the ID is not already in the list of valid IDs
-        if (this.ValidIDs.contains(id)) {
+        // Split the second guard clause into an if-else statement
+        // If ID passed previous check and is not already in the list
+        if (!(this.ValidIDs.contains(id))) {
+            System.out.println("ID added successfully.");
+            this.ValidIDs.add(id);
+        } else {
             System.out.println("ID not added. ID already exists in the list.");
             return;
         }
